@@ -2,15 +2,21 @@
 # Basic Indexing:
 # Given the string magic = 'abracadabra',
 # a. Retrieve the 5th character.
+magic = 'abracadabra'
+print(magic[4])
 # b. Retrieve the second to last character.
+print(magic[9])
 # c. Find the first occurrence of the letter 'c'.
-
+print(magic[4])
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
 # a. Extract the letters 'hij'.
+alphabet = "abcdefghijklmnopqrstuvwxyz"
+print(alphabet[7:10])
 # b. Extract every second letter starting from 'a' to 'm'.
+every_second_letter = alphabet[0:13:2]
 # c. Reverse the entire string using slicing.
-
+reversed_alphabet = alphabet[]
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"

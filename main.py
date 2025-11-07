@@ -1,13 +1,12 @@
-# Problem Set 1: Indexing and Slicing Strings
-# Basic Indexing:
-# Given the string magic = 'abracadabra',
-# a. Retrieve the 5th character.
-magic = 'abracadabra'
-print(magic[4])
-# b. Retrieve the second to last character.
-print(magic[9])
-# c. Find the first occurrence of the letter 'c'.
-print(magic[4])
+
+#restructure code without 
+#changing its external behavior 
+#this helps improve 
+
+#importing the functions 
+from problem_set1 import problem1
+
+
 # Advanced Slicing:
 # Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
 # a. Extract the letters 'hij'.

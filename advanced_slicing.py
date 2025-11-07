@@ -6,3 +6,7 @@ def advanced_slice():
     print(alphabet[7:10])
     # b. Extract every second letter starting from 'a' to 'm'.
     every_second_letter = alphabet[0:13:2]
+
+def reversing_slice():
+    # c. Reverse the entire string using slicing.
+reversed_alphabet = alphabet[::1]

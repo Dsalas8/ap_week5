@@ -4,14 +4,14 @@
 #importing the functions 
 from problem_set1 import problem1
 from advanced_slicing import advanced_slice
+from advanced_slicing import reversing_slice 
 #call the functions 
 problem1() #This is 
 # an abstract representation 
 #of a function.
+advanced_slice()
 
 
-# c. Reverse the entire string using slicing.
-reversed_alphabet = alphabet[::1]
 # Problem Set 2: Extracting Information
 # From Descriptions:
 # Extract the name of the famous personality from the quote "Ask not what your country can do for you — ask what you can do for your country. - John F. Kennedy"

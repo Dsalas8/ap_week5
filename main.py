@@ -1,19 +1,15 @@
 
-#restructure code without 
-#changing its external behavior 
-#this helps improve 
+
 
 #importing the functions 
 from problem_set1 import problem1
+from advanced_slicing import advanced_slice
+#call the functions 
+problem1() #This is 
+# an abstract representation 
+#of a function.
 
 
-# Advanced Slicing:
-# Given the string alphabet = 'abcdefghijklmnopqrstuvwxyz',
-# a. Extract the letters 'hij'.
-alphabet = "abcdefghijklmnopqrstuvwxyz"
-print(alphabet[7:10])
-# b. Extract every second letter starting from 'a' to 'm'.
-every_second_letter = alphabet[0:13:2]
 # c. Reverse the entire string using slicing.
 reversed_alphabet = alphabet[::1]
 # Problem Set 2: Extracting Information
